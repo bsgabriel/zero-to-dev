@@ -1,0 +1,5 @@
+estrutura: página sem estilização html
+css-puro: página estilizada usando css puro
+flexbox: página estilizada usando flexbox
+bootstrap: página estilizada usando bootstrap
+grid: página estilizada usando grids
