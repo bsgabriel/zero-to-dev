@@ -1,0 +1,21 @@
+.footer {
+	background: #d6d3c8;
+	padding: 40px 0;
+}
+
+.footer p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	margin: 0 10px;
+	flex: 1;
+}
+
+.footer-img {
+	margin: 0 10px;
+}
+
+@media (max-width: 739px) {
+	.footer-img, .footer p {
+		margin: 10px 0px;
+	}
+}

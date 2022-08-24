@@ -1,0 +1,39 @@
+.menu {
+	background: #252525;
+	padding: 15px 0;
+}
+
+.menu-logo {
+	margin: 0 10px;
+}
+
+.menu-nav {
+	flex: 1;
+	margin: 0 10px;
+	align-self: center;
+}
+
+.menu-nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
+}
+
+.menu-nav ul {
+	float: right;
+	display: flex;
+	list-style: none;
+}
+
+.menu-nav ul li a {
+	padding: 10px;
+}
+
+@media (max-width: 739px) {
+  .menu-nav, .menu-logo {
+		margin: 0;
+	}
+	.menu-nav ul li a {
+		padding-left: 0px;
+	}
+}
